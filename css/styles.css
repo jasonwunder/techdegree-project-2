@@ -1,7 +1,7 @@
 * {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  color: #414141;
+  /* color: #414141; */
 }
 
 header {
@@ -23,6 +23,7 @@ h2 {
   text-transform: uppercase;
   padding: 5%;
   font-size: 18px;
+  color: #414141;
 }
 
 h3 {
@@ -34,6 +35,7 @@ h3 {
 
 a {
   text-decoration: none;
+  color: #414141;
 }
 
 a:hover {
@@ -44,8 +46,10 @@ a:hover {
   font-size: 30px;
 }
 
-.bio {
-  color: rgb(158, 158, 158);
+.bio,
+.contact-container {
+  color: rgb(173, 173, 173);
+  padding-bottom: 25px;
 }
 
 .portfolio-container {
@@ -59,4 +63,8 @@ a:hover {
 
 .project {
   padding-bottom: 25px;
+}
+
+.contact-info {
+  color: rgb(173, 173, 173);
 }
