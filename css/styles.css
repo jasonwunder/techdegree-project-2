@@ -168,6 +168,10 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    padding-bottom: 0;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -182,18 +186,19 @@ footer {
     padding-left: 50px;
   }
 
-  .project {
-    margin-right: 5%;
-    width: 25%;
-  }
-
   .project:nth-child(even) {
     margin-right: initial;
   }
 
-  .project:nth-child(2),
-  .project:nth-child(5) {
-    margin-right: 0;
+  .project.proj-1,
+  .project.proj-2,
+  .project.proj-4,
+  .project.proj-5 {
+    margin-right: 5%;
+  }
+
+  .project {
+    max-width: 25%;
   }
 
   .profile-img {
@@ -202,5 +207,9 @@ footer {
 
   .contact-container {
     max-width: 50%;
+  }
+
+  footer {
+    padding-bottom: 0;
   }
 }
