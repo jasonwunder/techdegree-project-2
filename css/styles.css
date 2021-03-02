@@ -123,6 +123,7 @@ footer {
   .bio {
     width: 53%;
     padding-right: 25px;
+    padding-left: 25px;
     text-align: left;
     font-size: 19px;
   }
@@ -163,5 +164,43 @@ footer {
     padding-right: 20px;
     position: relative;
     top: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-nav {
+    margin: initial;
+    align-items: center;
+  }
+
+  .bio {
+    padding-left: 50px;
+  }
+
+  .project {
+    margin-right: 5%;
+    width: 25%;
+  }
+
+  .project:nth-child(even) {
+    margin-right: initial;
+  }
+
+  .project:nth-child(2),
+  .project:nth-child(5) {
+    margin-right: 0;
+  }
+
+  .profile-img {
+    max-width: 100%;
+  }
+
+  .contact-container {
+    max-width: 50%;
   }
 }
