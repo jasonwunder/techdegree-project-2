@@ -1,8 +1,6 @@
 * {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  /* color: #414141; */
-  /* background-color: #F6F6F6; */
 }
 
 header {
@@ -211,5 +209,9 @@ footer {
 
   footer {
     padding-bottom: 0;
+  }
+
+  .name {
+    padding-top: 3%;
   }
 }
